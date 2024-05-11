@@ -28,3 +28,8 @@ variable "cluster_version" {
 variable "cluster_name" {
   default = "my-eks-cluster"
 }
+
+variable "routes" {
+  default = ""
+  
+}
